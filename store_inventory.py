@@ -59,7 +59,7 @@ def select_item():
         name_call = input('enter name: ')
         lista.clear()
 
-        for name in names[0: len(names)]:
+        for name in names:
             if name_call[0: len(name_call)] == name[0: len(name_call)]:
                 potential_item = name
                 lista.append(potential_item)
